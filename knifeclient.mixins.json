@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "com.example.knifeclient.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [],
+  "client": [
+    "EntityMixin",
+    "GameRendererMixin",
+    "HeldItemRendererMixin",
+    "ItemModelManagerMixin",
+    "ModelPartMixin",
+    "PlayerEntityRendererMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}
